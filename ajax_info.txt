@@ -1,4 +1,17 @@
-<h1>AJAX</h1>
-<p>AJAX is not a programming language.</p>
-<p>AJAX is a technique for accessing web servers from a web page.</p>
-<p>AJAX stands for Asynchronous JavaScript And XML.</p>
+ <div class="about">
+             <h1>NGUYỄN THU THÙY</h1>
+            <p>K204111809</p>
+            <h3 class="title">Tóm tắt bản thân</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos cupiditate, laborum labore dignissimos nisi iusto sed deserunt quo ut excepturi.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum voluptatum saepe quas, repudiandae fugit soluta delectus aliquam autem mollitia, dolore nostrum pariatur suscipit dignissimos eveniet quidem? Possimus, dolore. Placeat, aut!</p>
+            <div class="box-container">
+                <div class="box">                   
+                    <h3> <span>Trường: </span>Trường Đại học Kinh tế - Luật </h3>  
+                    <h3> <span>Email : </span> thuynt20411c@st.uel.edu.vn </h3>                 
+                </div>
+                <div class="box">
+                    <h3> <span> Số điện thoại: </span>0977777777</h3>
+                     <h3> <span>Ngày sinh: </span> 02.01.2002 </h3>
+                </div>
+            </div>
+        </div>
