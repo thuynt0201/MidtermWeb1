@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JSON</title>
+    <script src="https://www.w3schools.com/lib/w3.js"></script>
+</head>
+<style>
+    .main{
+
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 30%; left: 20%;
+
+    }
+    
+    .intro{
+        text-align: center;
+    }
+    
+    .title{
+        background-color: rgb(34, 187, 121);
+        width: 500px;
+        height: 45px;
+        padding-top: 5px;
+        margin-bottom: 10px;
+    }
+    .title-2{
+        background-color: rgb(34, 187, 121);
+        width: 500px;
+        height: 175px;
+        padding-top: 5px;
+
+    }
+    @media screen and (max-width : 800px){
+        .title, .title-2{
+            width: 350px;
+        }
+    }
+    @media screen and (max-width : 400px)
+    {
+        .title, .title-2{
+            width: 250px;
+        }
+    }
+
+</style>
+
+<body>
+    <p class="" w3-include-html="a.html"></p> 
+    <p class="" w3-include-html="b.html"></p> 
+
+<div class="main">
+    <div class="intro">
+        <h1 class="heading">Json Object & Json Array</h1>
+    </div>
+    <div>
+        <h2>Json Object</h2>
+        <p>Đối tượng JSON được viết bên trong dấu ngoặc nhọn { }. Các đối tượng JSON có thể chứa nhiều cặp khóa: giá trị</p>
+        <p>Ví dụ: </p>
+
+        <div class="title">
+            <p>// JSON object</p>
+            <span> { "name": "John", "age": 22 } </span>
+        </div>
+    </div>
+
+    <hr class="wp-block-separator"/>
+
+    <div>
+        <h2>Json Array</h2>
+        <p>Mảng JSON được viết bên trong dấu ngoặc vuông [ ].</p>
+        <p>Ví dụ: </p>
+        <div class="title-2">
+            <p>// JSON array</p>
+            <span> [ "apple", "mango", "banana"]</span>
+            <p><br>// JSON array containing objects</p>
+            <span> [ </span>
+            <p> { "name": "John", "age": 22 }, </p> 
+            <span> { "name": "Peter", "age": 20 }. </span> 
+            <p> { "name": "Mark", "age": 23 } </p>
+            <span> ] </span>   
+        </div>
+    </div>
+</div>
+    <div class="" w3-include-html="d.html"></div> 
+    
+  <script>
+      w3.includeHTML();         
+  </script>
+</body>
+</html>
